@@ -2,10 +2,10 @@
     "data": [
       {
         "id": 1,
-        "title": "Test Title 1",
-        "desc": "test desc 1",
+        "title": "The new way of Error Handling in .Net 8",
+        "desc": "We all strive for smooth-running applications, and as you might recall, I previously discussed strategies to minimize exceptions altogether. However, even the most robust code encounters bumps in the road. That's where exception handling comes in.",
         "tag": "C#/.Net Vignettes",
-        "coverImage": "src/assets/Images/logo.png"
+        "coverImage": "src/assets/Images/blog1.jpg"
       },
       {
         "id": 2,
