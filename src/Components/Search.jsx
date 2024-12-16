@@ -11,7 +11,7 @@ function Search() {
     },
     {
       id:2,
-      name:'C# / .Net Vignettes',
+      name:'C#/.Net Vignettes',
     },
     {
       id:3,
@@ -32,11 +32,13 @@ function Search() {
         <IoSearchSharp className='text-[20px] text-gray-600'/>
         <input type='text' placeholder='Search' className='bg-white outline-none ml-2 flex-grow text-gray-600'/>
       </div>
+      
       <div className='flex gap-10 justify-center mt-5 cursor-pointer'>
       {tags.map((item,index) => (
-        <ul onClick={() => setActiveIndex(index)} 
+        <ul key={item.id} onClick={() => setActiveIndex(index)} 
         className = {`${index == activeIndex ? 'bg-red-500 text-white':null} 
-        p-1 pb-2 rounded-small md:rounded-full md:px-4`}>
+        p-1 pb-2 rounded-small md:rounded-full md:px-4
+        hover:scale-110 transition-all duration-100 ease-in-out`}>
           <li>{item.name}</li>
         </ul>
       ))}
