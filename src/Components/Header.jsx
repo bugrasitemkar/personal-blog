@@ -3,7 +3,7 @@ import logo from './../assets/Images/logo.png'
 
 function Header() {
   return (
-<div className="flex items-center">
+<div className="flex items-center mt-[5%]">
   {/* <img src={logo} className="w-[30px] mr-4" alt="Logo" /> */}
 
   {/* Center the ul using flex-grow or flex-1 */}
