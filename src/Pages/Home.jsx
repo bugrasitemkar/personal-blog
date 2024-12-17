@@ -6,9 +6,11 @@ import IntroPost from '../Components/IntroPost'
 function Home() {
   return (
     <div>
-        <Header />
+      <Header />
+      <div className="hidden md:block">
         <Search />
-        <IntroPost />
+      </div>
+      <IntroPost />
     </div>
   )
 }

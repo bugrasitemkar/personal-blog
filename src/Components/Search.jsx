@@ -26,7 +26,7 @@ function Search() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className='flex justify-center mt-8 flex-col px-[50] px-[300px]'>
+    <div className='flex justify-center mt-8 flex-col px-[50] px-[250px]'>
       <img src={banner} className='rounded-2xl'/>
       <div className='bg-white shadow-lg p-4 rounded-lg mt-[-20px] mx-[25%] flex items-center'>
         <IoSearchSharp className='text-[20px] text-gray-600'/>
