@@ -1,9 +1,8 @@
-import React from 'react'
 import banner from '.././assets/Images/banner.png'
 import  { IoSearchSharp } from 'react-icons/io5'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-function Search() {
+function Search({selectedTag}) {
   const tags = [
     {
       id:1,
@@ -35,7 +34,7 @@ function Search() {
       
       <div className='flex gap-10 justify-center mt-5 cursor-pointer'>
       {tags.map((item,index) => (
-        <ul key={item.id} onClick={() => setActiveIndex(index)} 
+        <ul key={item.id} onClick={() => {setActiveIndex(index);selectedTag(item.name)}} 
         className = {`${index == activeIndex ? 'bg-red-500 text-white':null} 
         p-1 pb-2 rounded-small md:rounded-full md:px-4
         hover:scale-110 transition-all duration-100 ease-in-out`}>
