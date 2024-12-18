@@ -1,4 +1,4 @@
-# **Full Stack Blog Website**  
+# **Personal Blog**  
 🖥️ **React JS, Tailwind CSS, Vite | Simple Blog Scaffold**  
 
 ## 📚 **Key Features**  
